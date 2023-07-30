@@ -29,4 +29,3 @@ perimetroID.innerHTML = perimetroID.innerHTML + perimetro;
 
 
 
-
