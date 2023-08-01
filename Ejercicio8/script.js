@@ -13,17 +13,20 @@ let cantNum = 0;
 
 let num = parseInt(prompt("Ingrese un numero"));
 
-while (num !== 0) {
+do {
   num = parseInt(prompt("Ingrese otro numero, cuando quiera terminar presione '0' "));
 
   max = Math.max(max, num);
-  min = Math.min(min, num);
+
+  if (num != 0) {
+    min = Math.min(min, num);
+  }
 
   total += num;
 
   cantNum++
 
-}
+} while (num !== 0)
 
 prom = total / cantNum;
 
