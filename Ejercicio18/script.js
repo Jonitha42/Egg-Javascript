@@ -10,6 +10,7 @@ let palabras = []
 let mayor = 0;
 let palabra = ""
 
+//PUNTO A
 valores.forEach(arry => {
   if (typeof (arry) === "string") {
     palabras.push(arry)
@@ -22,6 +23,44 @@ for (let index = 0; index < palabras.length; index++) {
     palabra = palabras[index]
   }
 }
+
+
+//PUNTO B
+let esFalso = valores[0] && valores[2]
+
+let esVerdadero = valores[0] || valores[2]
+/////////
+
+//PUNTO C
+let suma = (num1, num2) => num1 + num2
+
+let resta = (num1, num2) => num1 - num2
+
+let multiplicacion = (num1, num2) => num1 * num2
+
+let division = (num1, num2) => num2 == 0 ? alert("No se puede div por 0") : (num1 / num2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
